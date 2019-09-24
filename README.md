@@ -23,7 +23,11 @@ The 2nd argument is an associative list of attributes for the select tag.
 
 Will output:
 
-    <select class="select" id="select-1"><option value="one">One</option><option value="two" selected="selected">Two</option><option value="three">Three</option></select>
+    <select class="select" id="select-1">
+        <option value="one">One</option>
+        <option value="two" selected="selected">Two</option>
+        <option value="three">Three</option>
+    </select>
 
 ## Changelog
 

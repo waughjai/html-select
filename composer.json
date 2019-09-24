@@ -1,5 +1,5 @@
 {
-    "name": "waughj/composer-template",
+    "name": "waughj/html-select",
     "description": "Simple class for easily generating select tags.",
     "keywords": [ "html", "generator", "select", "options", "dropdown box" ],
     "license": "AGPL-3.0-or-later",

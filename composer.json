@@ -1,0 +1,25 @@
+{
+    "name": "waughj/composer-template",
+    "description": "Simple class for easily generating select tags.",
+    "keywords": [ "html", "generator", "select", "options", "dropdown box" ],
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Jaimeson Waugh",
+            "email": "waughjai@gmail.com"
+        }
+    ],
+    "type": "library",
+    "require": {
+		"php": ">=7.2",
+        "waughj/html-tag": "^0.1.0"
+    },
+    "require-dev": {
+		"phpunit/phpunit": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WaughJ\\HTMLSelect\\": "src/"
+        }
+    }
+}
